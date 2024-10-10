@@ -223,10 +223,10 @@ def rdct_f(income_statement, balance_sheet):
     return ratio_df_en, ratio_df_es
 def generate_financial_ratios(symbol, output_path='.'):
     import pandas as pd
-    import datetime
+    import yfinance as yf
+    import datetime 
     import os
     # Main code
-    symbol = 'NVDA'
     
     income_statement, balance_sheet, cashflow, income_statement_quarterly, \
     balance_sheet_quarterly, cashflow_quarterly = get_statements(symbol)
@@ -343,12 +343,13 @@ def generate_financial_ratios(symbol, output_path='.'):
     
     # Define the Excel file path
     # Definir el nombre del archivo Excel
-    excel_filename = f"{symbol}_financial_ratios_{str(datetime.datetime.now())[:10]}.xlsx"
+    excel_filename = f"{symbol}_financial_ratios_{str(datetime.datetime.now())[0:10]}.xlsx"
     excel_filepath = os.path.join(output_path, excel_filename)
+    os.chdir(output_path)
     
     # Save to Excel
     # Guardar en un archivo Excel con diferentes hojas
-    with pd.ExcelWriter(excel_filename, engine='xlsxwriter') as writer:
+    with pd.ExcelWriter(excel_filepath, engine='xlsxwriter') as writer:
         # Guardar el dataframe en inglés en la hoja 'Ratios EN'
         en_dataframe.to_excel(writer, sheet_name='Ratios EN', index=False)
         
@@ -364,9 +365,9 @@ def generate_financial_ratios(symbol, output_path='.'):
     
     print(f"Financial ratios saved to {excel_filepath}")
 
+generate_financial_ratios('NVDA', output_path=r'F:\Applications\Projects\Financial_analyst')
 
 
-
-
-
+symbol = 'NVDA'
+output_path = r'F:\Applications\Projects\Financial_analyst'
 
