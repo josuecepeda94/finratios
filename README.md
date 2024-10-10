@@ -65,6 +65,6 @@ Generate financial ratios for NVIDIA and save the Excel file in the current dire
 ```bash
 generate_financial_ratios('NVDA', output_path='.')
 ```
-##Parameters
+## Parameters
 symbol (str): The stock ticker symbol of the company (e.g., 'AAPL' for Apple Inc.). \
 output_path (str, optional): The directory where the Excel file will be saved. Defaults to the current directory.
