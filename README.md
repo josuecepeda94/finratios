@@ -33,9 +33,13 @@ Retorno de Activos
 Retorno de Capital Contribuido
 Retorno de Capital Total
 ##########
+
 Here you can check all symbols : https://stockanalysis.com/stocks/
+
 Google colab example:
+
 Youtube Video spanish:
+
 Youtube Video english:
 
 ## Author
@@ -54,11 +58,13 @@ pip install finratios
 ```
 
 ## Example of usage
+```bash
 from finratios import generate_financial_ratios
-
-# Generate financial ratios for NVIDIA and save the Excel file in the current directory
+```
+Generate financial ratios for NVIDIA and save the Excel file in the current directory
+```bash
 generate_financial_ratios('NVDA', output_path='.')
-
-Parameters
+```
+#Parameters
 symbol (str): The stock ticker symbol of the company (e.g., 'AAPL' for Apple Inc.).
 output_path (str, optional): The directory where the Excel file will be saved. Defaults to the current directory.
