@@ -53,8 +53,7 @@ https://josuecepeda.weebly.com/
 Install the package via pip:
 
 ```bash
-pip install finratios
-
+pip install git+https://github.com/josuecepeda94/finratios
 ```
 
 ## Example of usage
