@@ -365,9 +365,5 @@ def generate_financial_ratios(symbol, output_path='.'):
     
     print(f"Financial ratios saved to {excel_filepath}")
 
-generate_financial_ratios('NVDA', output_path=r'F:\Applications\Projects\Financial_analyst')
 
-
-symbol = 'NVDA'
-output_path = r'F:\Applications\Projects\Financial_analyst'
 
