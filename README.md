@@ -13,25 +13,25 @@ You can use it to research purposes, or investment analysis
 
 Ratios of NIF A-3 in spanish
 
-Deuda a capital contable
-Deuda a activos totales
-Cobertura de Interés
-Cobertura de Flujo
-Cobertura de Deuda
-Prueba de Liquidez
-Prueba de Acido
-Liquidez Inmediata
-Margen de Seguridad
-Intervalo Defensivo
-Margen de Utilidad Bruta
-Margen de Utilidad Operativa
-Margen de Utilidad Antes de Financiamientos e Impuestos
-Margen de Utilidad antes Financiamientos, Impuestos, Depreciación y Amortización
-Margen de Utilidad Neta
-Contribución Marginal
-Retorno de Activos
-Retorno de Capital Contribuido
-Retorno de Capital Total
+Deuda a capital contable \
+Deuda a activos totales \
+Cobertura de Interés \
+Cobertura de Flujo \
+Cobertura de Deuda \
+Prueba de Liquidez \
+Prueba de Acido \
+Liquidez Inmediata \
+Margen de Seguridad \
+Intervalo Defensivo \
+Margen de Utilidad Bruta \
+Margen de Utilidad Operativa \
+Margen de Utilidad Antes de Financiamientos e Impuestos \
+Margen de Utilidad antes Financiamientos, Impuestos, Depreciación y Amortización \
+Margen de Utilidad Neta \
+Contribución Marginal \
+Retorno de Activos \
+Retorno de Capital Contribuido \
+Retorno de Capital Total\
 ##########
 
 Here you can check all symbols : https://stockanalysis.com/stocks/
