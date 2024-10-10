@@ -51,6 +51,10 @@ https://josuecepeda.weebly.com/
 ## Installation
 
 Install the package via pip:
+```bash
+pip install git+https://github.com/josuecepeda94/finratios
+```
+OR
 
 ```bash
 pip install git+https://github.com/josuecepeda94/finratios
