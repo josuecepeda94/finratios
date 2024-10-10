@@ -36,7 +36,7 @@ Retorno de Capital Total\
 
 Here you can check all symbols : https://stockanalysis.com/stocks/
 
-Google colab example:
+Google colab example: https://colab.research.google.com/drive/1_oNjt7u_8sbbLpWJmuW5htvQ37_2eWyz?usp=sharing
 
 Youtube Video spanish:
 
